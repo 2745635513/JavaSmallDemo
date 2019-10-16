@@ -6,7 +6,7 @@ public class SmallTest {
          * 赋值传递
          */
         int[] num = {1, 3, 5, 6};
-        int[] numCopy = num;//拷贝只是引用？
+        int[] numCopy = num;//复制引用
 //        numCopy[2] = 3;
         num[2] = 7;
         for (int i = 0; i < num.length; i++) {
