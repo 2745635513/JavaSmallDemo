@@ -1,10 +1,5 @@
 package com.frs.demo;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
 public class StringDemo {
     public static void main(String[] args) {
         String nana=new String(" nan da ") ;
