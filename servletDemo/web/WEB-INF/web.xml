@@ -3,6 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+<!--    filter-->
+    <filter>
+        <filter-name>LogFilter</filter-name>
+        <filter-class>com.frace.controller.LogFilter</filter-class>
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>frace</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>LogFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+<!--    servlet-->
     <servlet>
         <servlet-name>HelloController</servlet-name>
         <servlet-class>com.frace.controller.HelloController</servlet-class>
@@ -12,4 +26,23 @@
         <servlet-name>HelloController</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SessionTack</servlet-name>
+        <servlet-class>com.frace.controller.SessionTrack</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionTack</servlet-name>
+        <url-pattern>/session</url-pattern>
+    </servlet-mapping>
+    
+<!--error-->
+    <error-page>
+        <error-code>404</error-code>
+        <location>/ErrorHandle</location>
+    </error-page>
+    <error-page>
+        <exception-type>java.lang.Throwable</exception-type>
+        <location>/ErrorHandle</location>
+    </error-page>
 </web-app>

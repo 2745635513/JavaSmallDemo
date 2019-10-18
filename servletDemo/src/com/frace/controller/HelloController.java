@@ -34,7 +34,7 @@ public class HelloController extends HttpServlet {
                 "<h1 align=\"center\">" + name + "</h1>\n" +
                 "<ul>\n" +
                 "  <li><b>站点名</b>："
-                + name + "\n" +
+                + name +response.getWriter() + "\n" +
                 "  <li><b>网址</b>："
                 + request.getParameter("url") + "\n" +
                 "</ul>\n" +
