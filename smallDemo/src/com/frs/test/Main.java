@@ -5,7 +5,7 @@ public class Main implements Father {
 
     public  int m;
     public static void main(String[] args) {
-        String s="";
+        String s="桌面";
         System.out.println("s="+s);
 
     }
