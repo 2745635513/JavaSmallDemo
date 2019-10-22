@@ -1,4 +1,4 @@
-package com.frs.demo;
+package com.frs.Thread;
 
 public class ThreadDemo extends Thread  {
     private int ticket=100;

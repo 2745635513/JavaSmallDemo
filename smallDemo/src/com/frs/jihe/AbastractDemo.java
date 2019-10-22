@@ -1,4 +1,4 @@
-package com.frs.demo;
+package com.frs.jihe;
 
 public abstract class AbastractDemo {
     abstract void move();

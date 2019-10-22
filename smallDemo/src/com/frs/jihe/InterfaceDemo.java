@@ -1,4 +1,4 @@
-package com.frs.demo;
+package com.frs.jihe;
 
 public interface InterfaceDemo {
     void sleep();

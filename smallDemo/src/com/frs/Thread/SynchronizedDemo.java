@@ -1,4 +1,4 @@
-package com.frs.demo;
+package com.frs.Thread;
 
 public class SynchronizedDemo {
     public void syncBlock(){

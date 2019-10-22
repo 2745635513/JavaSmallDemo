@@ -1,8 +1,6 @@
-package com.frs.demo;
+package com.frs.jihe;
 
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class ListDemo {
     public static void main(String[] args) {

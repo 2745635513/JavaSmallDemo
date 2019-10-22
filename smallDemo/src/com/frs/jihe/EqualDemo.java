@@ -1,4 +1,4 @@
-package com.frs.demo;
+package com.frs.jihe;
 
 public class EqualDemo {
     public static void main(String[] args) {
