@@ -10,6 +10,7 @@ public class SerializeClone implements Serializable {
     public SerializeClone copy(){
         SerializeClone clone=null;
         try {
+//            System.out.println(this);//com.frs.clone.SerializeClone@45ee12a7
             ByteArrayOutputStream out = new ByteArrayOutputStream();
             ObjectOutputStream objOut=new ObjectOutputStream(out);
             objOut.writeObject(this);
