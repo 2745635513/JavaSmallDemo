@@ -10,7 +10,7 @@ public class StaticProxyDemo implements ProxyInterfaceDemo {
 
     @Override
     public void printer() {
-        System.out.println("i am a static proxy class");
+        System.out.println("i am a staticDemo proxy class");
         target.printer();
         System.out.println("test over.");
     }
