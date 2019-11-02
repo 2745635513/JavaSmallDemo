@@ -10,7 +10,7 @@ public class Demo {
 //        System.out.println(Integer.toBinaryString('a'));//110001
 //        System.out.println(Integer.toBinaryString(0b10));//10
 //        byte b=129;//-128 ~ 127
-        System.out.println("-1: "+Integer.toBinaryString(-1));//-1: 11111111111111111111111111111111
+//        System.out.println("-1: "+Integer.toBinaryString(-1));//-1: 11111111111111111111111111111111
         System.out.println("+1:"+Integer.toBinaryString(+1));//+1:1
         System.out.println("-3: "+Integer.toBinaryString(-3));//-3: 11111111111111111111111111111101
     }
